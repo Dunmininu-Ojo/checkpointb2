@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Welcome to your second checkpoint, and congratulations on making it this far.</p>
+    <p>It’s time to practice what we’ve learned. Below is a sample of my portfolio layout.</p>
+    <!-- Adding a video -->
+    <video controls width="400">
+      <source src="sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate learner and aspiring developer.</p>
+    <!-- Adding audio -->
+    <audio controls>
+      <source src="sample-audio.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>My Work</h2>
+    <ul>
+      <li>Project 1 – Portfolio Website</li>
+      <li>Project 2 – Calculator App</li>
+      <li>Project 3 – Blog Design</li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <table border="1">
+      <tr>
+        <th>Year</th>
+        <th>Role</th>
+        <th>Company</th>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>Intern</td>
+        <td>Tech Co.</td>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td>Junior Developer</td>
+        <td>Web Solutions</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
